@@ -1,0 +1,39 @@
+# =====================================
+# Fraud Risk Intelligence Project
+# Python 3.11
+# =====================================
+
+# Data Processing
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Imbalanced Learning
+imbalanced-learn
+
+# Explainable AI
+shap
+
+# Statistical Analysis and Optimization
+scipy
+optuna
+
+# Model Serialization
+joblib
+
+# Jupyter Environment
+jupyter
+ipykernel
+
+# PDF Report Generation
+reportlab
+
+# Testing
+pytest
