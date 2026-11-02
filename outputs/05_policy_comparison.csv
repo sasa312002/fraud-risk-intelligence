@@ -1,0 +1,4 @@
+policy,transactions,approve_count,review_count,block_count,approve_rate,review_rate,block_rate,projected_cost_total,projected_cost_per_transaction,observed_fraud_total,fraud_approved_count,fraud_blocked_count,fraud_review_count,legitimate_blocked_count,estimated_fraud_prevented,validation_outcome_cost_total,validation_outcome_cost_per_transaction
+Approve all,600,600,0,0,1.0,0.0,0.0,1501171.1287034494,2501.9518811724156,73,73,0,0,0,0.0,1460000.0,2433.3333333333335
+Binary block at 0.50,600,600,0,0,1.0,0.0,0.0,1501171.1287034494,2501.9518811724156,73,73,0,0,0,0.0,1460000.0,2433.3333333333335
+Optimized triage (capacity constrained),600,456,120,24,0.76,0.2,0.04,990944.4761056723,1651.574126842787,73,34,7,32,17,35.8,790140.0,1316.9
