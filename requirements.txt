@@ -37,3 +37,6 @@ reportlab
 
 # Testing
 pytest
+
+# Markdown Table Generation
+tabulate
