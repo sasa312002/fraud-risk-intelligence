@@ -1,0 +1,11 @@
+gate,passed,severity,evidence
+baseline_review_capacity,True,Operational,20.00% review vs 20.00% cap
+baseline_block_capacity,True,Operational,4.00% block vs 5.00% cap
+stress_review_capacity,False,Critical,"Breaching scenarios: authentication_missing_20pct, unseen_channel_10pct, amount_up_25pct, distance_up_50pct, velocity_plus2"
+stress_block_capacity,False,Critical,Breaching scenarios: velocity_plus2
+prediction_time_feature_provenance,False,Critical,Pre-authorization availability for 7 VERIFY fields not independently established
+out_of_time_or_customer_group_validation,False,Critical,Full timestamps and customer identifiers unavailable
+real_review_outcomes_and_costs_verified,False,Critical,Reviewer effectiveness and business loss amounts are assumptions
+fairness_and_appeal_process_reviewed,False,Critical,No protected-class fairness audit or appeal-process evaluation completed
+independent_final_holdout_evaluated,False,Critical,Reserved 600-row final test set has not been scored
+live_monitoring_and_human_signoff,False,Critical,"Monitoring ownership, escalation and deployment approval not validated"

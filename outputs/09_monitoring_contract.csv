@@ -1,0 +1,9 @@
+metric,cadence,warning_trigger,critical_trigger,action
+review_rate,Per batch,>= 18.0%,> 20.0%,"Route overflow to an explicit, human-approved queue; never auto-expand capacity"
+block_rate,Per batch,>= 4.5%,> 5.0%,"Pause auto-block rollout, escalate to fraud operations and review policy"
+authentication_missing_rate,Daily,Historical baseline + 5 percentage points,+ 10 percentage points,Inspect upstream auth logging and data contracts
+unseen_category_rate,Daily,> 1%,> 5%,Check encoder schema and source changes
+numeric_psi,Weekly,>= 0.10,>= 0.25,Investigate segment drift; confirm reference window is chronological
+brier_score,After delayed labels,+ 10% vs holdout,+ 25% vs holdout,"Trigger calibration investigation on mature labels, not immediate refit"
+average_precision,After delayed labels,- 10% vs holdout,- 20% vs holdout,"Investigate label delays, sampling and class prevalence"
+manual_review_backlog,Per batch,> 0 pending cases,> reviewer capacity,Escalate analyst coverage; avoid assumed SLA claims

@@ -1,0 +1,11 @@
+risk_id,risk,severity,evidence,mitigation,proposed_owner
+R01,Capacity overflow under shift,High,"Observed in offline stress replay: authentication_missing_20pct, unseen_channel_10pct, amount_up_25pct, distance_up_50pct, velocity_plus2",Human approval for overflow routing; monitor both action rates,Fraud Operations
+R02,Large false-block count,High,17 legitimate proposed blocks on validation under current illustrative policy,"Human override, appeals, two-person controls for high-impact actions",Risk Owner
+R03,Fraud approved,High,34 of 73 fraud labels approved in retrospective audit,Fraud-loss surveillance; human review/threshold reevaluation on fresh data,Fraud Operations
+R04,Feature leakage / pre-authorization availability,High,Multiple fields remain VERIFY,Signed point-in-time feature contract and pipeline audit,Data Engineering
+R05,Temporal and customer generalization unknown,High,No customer IDs or full timestamps,Secure chronological and entity-level external validation,Model Risk
+R06,Repeated selection on validation,High,"Model, calibration and cost policy chosen on same validation batch","Freeze whole pipeline; one-time final holdout, then fresh data for further revisions",Model Risk
+R07,Illustrative reviewer/cost assumptions,High,90% reviewer detection and LKR cost matrix unverified,Replace with measured review and cost observations,Finance / Operations
+R08,"Fairness, privacy and contestability",High,Sensitive attributes/consent and appeals not assessed,"Minimize retained identifiers, bias assessment and appeal protocol",Compliance
+R09,"Label delay, data drift and unseen categories",Medium,No live monitoring established,"Monitor missingness, PSI, score mix and post-label outcomes",MLOps
+R10,Small holdouts and uncertain ranking gains,Medium,Validation fraud count only 73,Bootstrap intervals; independent external evaluation,Data Science
