@@ -1,0 +1,8 @@
+feature,train_validation_psi
+ip_risk_score,0.029330849276707406
+merchant_risk_score,0.026140394300970773
+transactions_last_24h,0.0245031356072415
+account_age_days,0.023760774147740225
+distance_from_usual_location_km,0.021636533338765526
+transaction_amount,0.009788278735480344
+transactions_last_1h,0.005657817497031438

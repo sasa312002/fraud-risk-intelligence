@@ -1,0 +1,11 @@
+{
+  "status": "FINAL_HOLDOUT_OPENED_ONCE_RESEARCH_ONLY",
+  "opened_utc": "2026-11-02T08:47:52.506596+00:00",
+  "model_sha256": "87217ee986fbed6763df7111294c051c94fb7934ea9ce3e185064c6841bce517",
+  "frozen_manifest_sha256": "ceb061352b7b34945ccf58478aac344d0e1f550e407bc63bfb2f2c6a5cea9db3",
+  "review_threshold": 0.1520464035,
+  "block_threshold": 0.2620026706,
+  "test_rows": 600,
+  "dataset_scope": "fixed_stratified_random_test",
+  "warning": "Do not revise/reselect model or thresholds using these scores. Not production-approved."
+}
