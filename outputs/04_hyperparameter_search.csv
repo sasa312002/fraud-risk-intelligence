@@ -1,0 +1,3 @@
+model,best_cv_ap,best_params_json,num_candidates
+Random Forest / Engineered 39,0.21180786267222845,"{""classifier__max_depth"": 6, ""classifier__max_features"": ""sqrt"", ""classifier__min_samples_leaf"": 2, ""classifier__n_estimators"": 100}",4
+XGBoost / Engineered 39,0.22625230835116392,"{""classifier__colsample_bytree"": 1.0, ""classifier__learning_rate"": 0.08, ""classifier__max_depth"": 2, ""classifier__min_child_weight"": 1, ""classifier__n_estimators"": 100, ""classifier__reg_lambda"": 5.0, ""classifier__subsample"": 1.0}",4
