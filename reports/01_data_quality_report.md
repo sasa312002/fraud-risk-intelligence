@@ -178,8 +178,13 @@ planned, with its limitations documented.
 All data-dependent preprocessing will be fitted
 inside training or cross-validation pipelines.
 
-The final test set will remain untouched until
-the selected model and decision policy are frozen.
+The final test set will not be used for fitting,
+model selection, calibration, or threshold optimization.
+
+The exploratory full-dataset quality audit examined some
+fraud labels before modeling. This limits claims of a
+completely blind test holdout. Only training data will
+inform further feature engineering and model decisions.
 
 ## 9. Conclusion
 
