@@ -1,0 +1,10 @@
+{
+  "artifact_name": "03_fraud_model_pipeline.joblib",
+  "sha256": "8a8e833cc70fcbfd4740dfcb390895c9c3c5530ef19d1131924a43cf6334a50a",
+  "source_calibrated_model": "section_f_provisional_calibrated.joblib",
+  "source_frozen_model_sha256": "87217ee986fbed6763df7111294c051c94fb7934ea9ce3e185064c6841bce517",
+  "extracted_member_index_zero_based": 0,
+  "total_calibrated_members": 3,
+  "description": "Fitted preprocessing + logistic classifier from ONE calibration cross-validation member. Use 04_calibrated_model.joblib for final fraud probability predictions. No retraining performed.",
+  "deployment_status": "RESEARCH_ONLY_NOT_APPROVED_FOR_LIVE_BLOCKING"
+}

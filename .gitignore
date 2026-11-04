@@ -22,3 +22,8 @@ models/*.joblib
 
 # VS Code
 .vscode/
+
+# Allow required assignment submission artifacts
+!data/processed/02_processed_dataset.csv
+!models/03_fraud_model_pipeline.joblib
+!models/04_calibrated_model.joblib
