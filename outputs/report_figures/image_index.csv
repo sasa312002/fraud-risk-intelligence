@@ -1,0 +1,28 @@
+﻿cell_number,image_in_cell,title_guess,image_path
+11,1,Transaction Amount Distribution by Fraud Status,all_images\cell_011_image_01.png
+16,1,Fraud vs Legitimate Transaction Distribution (Training Set),all_images\cell_016_image_01.png
+17,3,Fraud Rate by Transaction Channel (Training Set),all_images\cell_017_image_03.png
+18,3,Fraud Rate by Merchant Category,all_images\cell_018_image_03.png
+19,3,Fraud Rate by Authentication Level,all_images\cell_019_image_03.png
+20,3,Fraud Rate by Customer Tier,all_images\cell_020_image_03.png
+21,3,Fraud Rate by Device Type,all_images\cell_021_image_03.png
+22,5,Fraud Rate by Transaction Hour,all_images\cell_022_image_05.png
+23,3,Fraud Rate Across Transaction Amount Quantiles,all_images\cell_023_image_03.png
+24,3,Fraud Rate by Transactions in the Last Hour,all_images\cell_024_image_03.png
+25,3,Fraud Rate Across Distance Quantiles,all_images\cell_025_image_03.png
+26,3,Fraud Rate Across Account Age Quantiles,all_images\cell_026_image_03.png
+27,5,,all_images\cell_027_image_05.png
+28,3,New Device x Distance Interaction on Fraud Risk,all_images\cell_028_image_03.png
+29,3,Transaction Amount x Merchant Risk Interaction,all_images\cell_029_image_03.png
+30,3,Authentication Level x Transaction Channel Interaction,all_images\cell_030_image_03.png
+31,3,Spearman Correlation Heatmap - Training Dataset,all_images\cell_031_image_03.png
+39,4,Original vs Engineered — PR-AUC (Average Precision),all_images\cell_039_image_04.png
+45,4,Section D — Validation Average Precision (Higher Is Better),all_images\cell_045_image_04.png
+50,3,Section G — Validation Average Precision,all_images\cell_050_image_03.png
+55,1,Section F — Validation reliability diagrams (8 quantile bins),all_images\cell_055_image_01.png
+55,2,Section F — Validation reliability diagrams (8 quantile bins),all_images\cell_055_image_02.png
+60,3,Section E — Projected Cost Under Illustrative Assumptions,all_images\cell_060_image_03.png
+65,3,Proposed Approve / Review / Block Mix,all_images\cell_065_image_03.png
+71,3,Section H — Global Base-Logit SHAP Importance (Training Only),all_images\cell_071_image_03.png
+72,3,,all_images\cell_072_image_03.png
+77,1,Section J — Decision Changes Under Input Perturbations,all_images\cell_077_image_01.png
